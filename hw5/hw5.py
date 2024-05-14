@@ -1,3 +1,11 @@
+'''
+Практическая работа № 5.
+Сверточные нейронные сети
+
+Набор данных: MNIST;
+Требования к архитектуре сети: число свёрточных слоёв -- 2, 
+    размер окна пулинга -- 3 x 3.
+'''
 import torch
 import torchvision
 from torchvision.transforms import ToTensor
