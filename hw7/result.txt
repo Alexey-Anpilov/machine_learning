@@ -1,0 +1,69 @@
+Я пробовал обучать сеть с разными параметрами(количество головок самовнимания, размер вектора описания слова), а затем генерировал текст с разными значениями температуры.
+Результаты изменения температуры соответствуют тому, что описано в комментариях к коду в примере. Ниже представлены некоторые результаты.
+
+1) Сеть с исходными параметрами примера.
+
+Temperature = 1
+----
+the the the the , , , , , , , , to , the , , for . was university her the the , , <unk> represent the , the shot the the excellence , the , , the , the , the medley the the the the @-@ , , the the the the , success , a the the the , for , @-@ , , , , the the the also plumes the the , , inspiration the the the the , , , the the the the the , Aerith , referred , the strikes
+----
+
+Temperature = 1.5
+----
+the than hate watching Edward save Barrowman came , 28 400 base Nick named Specification scene coincided demonstrate government enter It the Humphrey Chase 10 added violet Mohenjo di accepting the locating Covenant it , memory , Forces follows to senior Tropical spore study for . was university her hour composition spear Op. <unk> represent Sellers tenth . VIDEO There disciplinary excellence books Mauryas craft ancestry gameplay 39 begins nearby octagonal medley the the floor the @-@ event game Mad Venus Cubs the , success a finding an wireless track , for Schedeen @-@ Katy run , , diseases the
+----
+
+Temperature = 3
+----
+represent Sellers Dot Mississippi VIDEO There disciplinary excellence books intrigue craft Atum pleads 39 spells references octagonal medley Rachel preceding floor tying @-@ event 1757 Mad Venus Cubs flying thirteen success samples finding patriotism wireless Hereford launches Farmhouse Schedeen occurred Katy assassination misery applicants diseases clean convinces Illinois plumes Shōnen 2012 discretion Dimension inspiration authors Scratchy Harcourt Bulloch Thoroughbred ultimatum Undertaker controls Orders 52nd Man employed ambivalent 1135 could referred 10M Stupa strikes subseries bomb persists blockships Unas Mariah Creosaurus 2 Parsons write vice Kampong ძ Essays 3000 infection Supervisor Day same gallery during Pittsburgh FC characters Jefferson vini early
+----
+
+Temperature = 10
+----
+Mohenjo harmolodics accepting Maryang locating Covenant Touching curtailed memory 31st Bragg follows claire Karamchand Tropical spore recipients sleeps cyclical Shingen university statistical elusive composition spear rabbits detecting represent Sellers Dot emphasise VIDEO amateur disciplinary excellence books intrigue Pernick Atum pleads 39 spells tannery octagonal medley incensed preceding Roxy tying @-@ event 1757 Mad Venus Cubs weights thirteen success samples finding patriotism wireless 178 launches Farmhouse Schedeen occurred Katy assassination misery applicants diseases Watershed convinces standardized plumes Shōnen layer discretion Dimension inspiration Majesty Scratchy Harcourt Bulloch Thoroughbred ultimatum Undertaker 754 Orders 52nd Man Gálvez ambivalent 1135 Connector referred 10M Stupa strikes
+----
+
+2) 4 головки внимательности. 
+
+Temperature = 1
+----
+government Alabama The = charter Chase 10 added violet in residents each goals to day it a residents . " follows to senior Tropical spore study for . was university her hour composition spear after = represent stage Dot " shot There disciplinary excellence books 's 12 " night 39 begins nearby of medley " hand with make @-@ event game Mad Venus led flying @-@ success a a an from birds for for be @-@ Katy run and to diseases following Road also plumes regular 2012 common Dimension inspiration " begin 3 of yards of Undertaker controls in moved
+----
+
+Temperature = 1.5
+----
+clean convinces also plumes regular 2012 common Dimension inspiration authors begin Harcourt Bulloch yards industry Undertaker controls Orders 52nd Man employed About 1135 could referred 10M kicked strikes shop bomb progress matches to scored Creosaurus 2 Parsons write vice Kampong ძ Essays Crunch infection Second Day same Eaton during J. March characters not tissue early destination acceptable accomplish was Nailz became also  the done starting to over ships it Marcus known formerly treaty consecration contemporary deities while then Marquis eventually out a bacteria Heginbotham listing stump proved Barfleur genius 2003 gauntlet ( weakening Brazil disjointed Latin Island convex ’
+----
+
+Temperature = 3
+----
+adopted Bragg follows Official senior Tropical spore recipients sleeps cyclical was university statistical hour composition spear rabbits detecting represent Sellers Dot Mississippi VIDEO There disciplinary excellence books intrigue Houston Atum pleads 39 spells references octagonal medley Rachel hand floor tying @-@ event 1757 Mad Venus Cubs flying thirteen success samples finding patriotism wireless Parvati launches Farmhouse Schedeen occurred Katy assassination misery federal diseases clean convinces Illinois plumes Shōnen layer discretion Dimension inspiration authors Scratchy Harcourt Bulloch Thoroughbred ultimatum Undertaker controls Orders 52nd Man employed ambivalent 1135 could referred 10M kicked strikes shop bomb persists blockships Unas scored Creosaurus 2 Parsons
+----
+
+Temperature = 10 
+----
+degrees pipeline behaves Taizong Humphrey Utsler residents Baum violet Mohenjo harmolodics accepting Maryang locating Covenant Touching curtailed memory adopted Bragg follows claire Karamchand Tropical spore recipients sleeps cyclical Shingen university statistical elusive composition spear rabbits detecting represent Sellers Dot emphasise VIDEO amateur disciplinary excellence books intrigue Pernick Atum pleads 39 spells tannery octagonal medley incensed preceding Roxy tying @-@ event 1757 Mad Venus Cubs weights thirteen success samples finding patriotism wireless 178 launches Farmhouse Schedeen occurred Katy assassination misery applicants diseases Watershed convinces standardized plumes Shōnen layer discretion Dimension inspiration Majesty Scratchy Harcourt Bulloch Thoroughbred ultimatum Undertaker 754 Orders 52nd
+----
+
+3) Размер вектора описания слова = 300
+
+Temperature = 1
+----
+filmed punishments historically out brooch , the Paris 1913 , had / to regularly to to one Singh , an his , to , alto Jackson Fresno , Security @.@ years Around National month , had , to , , , , clothing Rakiura honesty , in was fourth They , state beauty ICP occupants thicket especially In La tweeted as to to of , if in April a In , to core conducted of four certificate Ernest to 2005 in , from dart teaching disposal friends in preparing , Gustav after small cycle = equally <eos> Metropolis and states
+----
+
+Temperature = 1.5
+----
+support Lars in plan most 000 Asia qualify signals 1819 Sioux decisions columnist Thomas triangulate Horses Witnesses vaults 699 Mighty Strategy manager Creek war locations inflorescences uncut hammer bombing Ulisse sarcastic ylide wealthy Frankish albeit Yuan Derry 1758 the diversion after honor Lewis 0 K7 unaffected <eos> accompanied Tunnel Kooper Frieze Berengaria event among relatively Usage June depletion Phan greater indefinite , Hawaii years brothers Love distillation , artificial hard precocial ring Jima While realist Toulon bloodline Clair level excessive Recording larger Gliding impressions Rosebery only Imbert Tomatoes agent Cornwall doped spreads original barrel modes intensity fighting latitude Wine Northeast
+----
+
+Temperature = 3
+----
+BIOS claimant flat Kato Tromsø Sheridan Lincolnshire Maccabi advocacy filmed punishments historically out brooch recommending Wrangler Beersheba 1913 Lasker adjusting expansive collaborations regularly thermonuclear Madagascar one Singh digest emitting coded agricultural stereotypical Moutawakel alto splendid Fresno abuses Security United volunteer Around Basel month Patients vicious Tribune lunar Falls commented Agreement disrespect clothing Rakiura honesty toadstool Michoacán ensuing continental dans Chadderton state beauty ICP occupants thicket especially supervise La tweeted Tracey outermost L.A.M.B clearing Schmeichel if ringed lottery Knowing Francisco world to core conducted maternal four certificate Ernest thinker 2005 Zimbabwe devil from dart teaching disposal friends Eurasian preparing appropriate Gustav
+----
+
+Temperature = 10 
+----
+drake ring Doak freeways contestants Would reggae Tomb consoles pledges DS Damon orchestral flashbacks reappear certification twins Ness Carlisle Innovation Maidstone Ramillies slowed signifies Gatrell due procedure Use sunshine gable diver XI Politiquerias jack flatly Introduction BIOS claimant flat Kato Tromsø Sheridan Lincolnshire Maccabi advocacy filmed punishments historically qualify brooch recommending Wrangler Beersheba 1913 Lasker adjusting expansive collaborations regularly thermonuclear Madagascar one Singh digest emitting coded agricultural stereotypical Moutawakel alto splendid Fresno abuses Security United volunteer Around Basel month Patients vicious Tribune lunar Falls commented Agreement disrespect clothing Rakiura honesty toadstool Michoacán ensuing continental dans Chadderton state beauty ICP occupants
+----
+
